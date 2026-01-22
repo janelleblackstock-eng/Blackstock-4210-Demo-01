@@ -8,3 +8,7 @@ def index():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/animals')
+def animals():
+    return render_template('animals.html')
