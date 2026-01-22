@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UGA MIS Starter Kit</title>
+    <title>Helen, Georgia - Alpine Village</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
-            --uga-red: #BA0C2F;
-            --uga-black: #000000;
-            --uga-light-red: #fce8ec;
-            --uga-light-gray: #f5f5f5;
+            --helen-green: #2E7D32;
+            --helen-blue: #1565C0;
+            --helen-light-green: #E8F5E9;
+            --helen-light-blue: #E3F2FD;
         }
-        
+
         body {
-            background: linear-gradient(135deg, var(--uga-light-red) 0%, #ffffff 50%, var(--uga-light-gray) 100%);
+            background: linear-gradient(135deg, var(--helen-light-green) 0%, #ffffff 50%, var(--helen-light-blue) 100%);
             min-height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
+
         .navbar-uga {
-            background: linear-gradient(90deg, var(--uga-red) 0%, var(--uga-black) 100%);
+            background: linear-gradient(90deg, var(--helen-green) 0%, var(--helen-blue) 100%);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 1rem 0;
         }
@@ -73,17 +73,17 @@
         }
         
         .btn-primary {
-            background: linear-gradient(45deg, var(--uga-red), var(--uga-black));
+            background: linear-gradient(45deg, var(--helen-green), var(--helen-blue));
             border: none;
             border-radius: 25px;
             padding: 0.5rem 1.5rem;
             font-weight: 500;
             transition: all 0.3s ease;
         }
-        
+
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(186, 12, 47, 0.3);
+            box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
         }
         
         .card {
@@ -98,17 +98,17 @@
         }
         
         h1, h2, h3 {
-            color: var(--uga-red);
+            color: var(--helen-green);
         }
-        
+
         .table {
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        
+
         .table thead th {
-            background: linear-gradient(90deg, var(--uga-red), var(--uga-black));
+            background: linear-gradient(90deg, var(--helen-green), var(--helen-blue));
             color: white;
             border: none;
             font-weight: 600;
@@ -118,7 +118,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-uga">
         <a class="navbar-brand" href="{{ url_for('index') }}">
-            <i class="fas fa-home me-2"></i>UGA MIS Starter Kit
+            <i class="fas fa-mountain me-2"></i>Helen, Georgia
         </a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto">

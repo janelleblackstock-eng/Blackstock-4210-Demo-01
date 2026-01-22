@@ -5,39 +5,56 @@
 <div class="text-center">
     <div class="card shadow-lg p-5 mb-5">
         <h1 class="display-4 mb-3">
-            <i class="fas fa-graduation-cap me-3"></i>University of Georgia
+            <i class="fas fa-mountain me-3"></i>Helen, Georgia
         </h1>
-        <h2 class="h3 text-muted mb-4">MIS Flask Starter Kit</h2>
-        
-        <p class="lead mb-4">Welcome to UGA's Flask development environment! This starter kit provides a foundation for building web applications using Python and Flask.</p>
-        
+        <h2 class="h3 text-muted mb-4">My Favorite Vacation Spot</h2>
+
+        <p class="lead mb-4">Nestled in the Blue Ridge Mountains of Northeast Georgia, Helen is a charming alpine village that feels like stepping into a Bavarian fairytale.</p>
+
         <div class="row justify-content-center mb-4">
             <div class="col-md-10">
-                <p class="mb-0">The University of Georgia, located in Athens, Georgia, is a public research university known for its commitment to excellence in education and student success. Our MIS program prepares students with practical skills in software development, data analysis, and modern web technologies for business applications.</p>
+                <h3 class="h4 mb-3"><i class="fas fa-heart me-2" style="color: var(--helen-green);"></i>Why I Love It</h3>
+                <p class="mb-4">Helen offers the perfect escape from everyday life. The combination of stunning mountain scenery, the peaceful sounds of the Chattahoochee River, and the unique Bavarian architecture creates an atmosphere unlike anywhere else in Georgia. Every visit feels like a mini-vacation to Europe without leaving the state. The crisp mountain air, friendly locals, and endless outdoor adventures make it impossible not to fall in love with this special place.</p>
             </div>
         </div>
-        
+
         <div class="row justify-content-center">
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <i class="fas fa-code fa-3x mb-3" style="color: var(--uga-red);"></i>
-                        <h5 class="card-title">Modern Development</h5>
-                        <p class="card-text">Built with Flask, Bootstrap, and modern web technologies for responsive design.</p>
+                        <i class="fas fa-water fa-3x mb-3" style="color: var(--helen-blue);"></i>
+                        <h5 class="card-title">Tubing the Hooch</h5>
+                        <p class="card-text">Float down the Chattahoochee River on a lazy summer day - the most relaxing way to cool off!</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <i class="fas fa-database fa-3x mb-3" style="color: var(--uga-black);"></i>
-                        <h5 class="card-title">Database Ready</h5>
-                        <p class="card-text">Pre-configured for MySQL/PostgreSQL with example CRUD operations.</p>
+                        <i class="fas fa-hiking fa-3x mb-3" style="color: var(--helen-green);"></i>
+                        <h5 class="card-title">Hiking Trails</h5>
+                        <p class="card-text">Explore Anna Ruby Falls, Raven Cliff Falls, and countless trails through the Chattahoochee National Forest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-store fa-3x mb-3" style="color: var(--helen-blue);"></i>
+                        <h5 class="card-title">Alpine Shopping</h5>
+                        <p class="card-text">Browse unique shops, candy stores, and German restaurants along the cobblestone streets.</p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
+        <div class="row justify-content-center mt-4 mb-4">
+            <div class="col-md-10">
+                <h3 class="h4 mb-3"><i class="fas fa-star me-2" style="color: var(--helen-green);"></i>What Makes It Special</h3>
+                <p>Helen transformed from a declining lumber town into Georgia's own piece of Bavaria in 1969. Today, every building in the village features authentic German-style architecture with hand-painted murals and flower boxes. The town hosts Oktoberfest celebrations that run from September through November - the longest in the Southeast! Whether you're seeking adventure, relaxation, or just great food and mountain views, Helen delivers a magical experience year-round.</p>
+            </div>
+        </div>
+
         <div class="mt-4">
             <a href="{{ url_for('examples.show_examples') }}" class="btn btn-primary btn-lg me-3">
                 <i class="fas fa-eye me-2"></i>View Examples
@@ -54,18 +71,18 @@
         background: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(10px);
     }
-    
+
     .btn-outline-secondary {
-        border-color: var(--uga-red);
-        color: var(--uga-red);
+        border-color: var(--helen-green);
+        color: var(--helen-green);
     }
-    
+
     .btn-outline-secondary:hover {
-        background-color: var(--uga-red);
-        border-color: var(--uga-red);
+        background-color: var(--helen-green);
+        border-color: var(--helen-green);
         color: white;
         transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(186, 12, 47, 0.3);
+        box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
     }
 </style>
 
